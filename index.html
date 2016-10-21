@@ -22,14 +22,14 @@
           <label>If you could only choose one, would you make a website that...</label>
             <div class="radio">
               <label>
-                Works great.
                 <input type="radio" name="question1" value="works" checked>
+                Works great.
               </label>
             </div> <!--question 1, option 1-->
             <div class="radio">
               <label>
-                Looks great.
                 <input type="radio" name="question1" value="looks">
+                Looks great.
               </label>
             </div> <!--question 1, option 2-->
         </div> <!-- question 1 form group-->
@@ -38,14 +38,14 @@
           <label>Which of these companies would you prefer to work for?</label>
             <div class="radio">
               <label>
-                NewRelic and InComm
                 <input type="radio" name="question2" value="newrelic" checked>
+                NewRelic and InComm
               </label>
             </div> <!--question 2, option 1-->
             <div class="radio">
               <label>
-                SQ1 and InVision
                 <input type="radio" name="question2" value="sq1">
+                SQ1 and InVision
               </label>
             </div> <!--question 2, option 2-->
         </div> <!-- question 2 form group-->
@@ -54,14 +54,14 @@
           <label>Would you prefer to work for a...</label>
             <div class="radio">
               <label>
-                New company and/or start up
                 <input type="radio" name="question3" value="startup" checked>
+                New company and/or start up
               </label>
             </div> <!--question 3, option 1-->
             <div class="radio">
               <label>
-                Established company with a corporate environment
                 <input type="radio" name="question3" value="corporate">
+                Established company with a corporate environment
               </label>
             </div> <!--question 3, option 2-->
         </div> <!-- question 3 form group-->
@@ -70,14 +70,14 @@
           <label>Which ice cream flavor do you prefer?</label>
             <div class="radio">
               <label>
-                Chocolate
                 <input type="radio" name="question4" value="chocolate" checked>
+                Chocolate
               </label>
             </div> <!--question 4, option 1-->
             <div class="radio">
               <label>
-                Vanilla
                 <input type="radio" name="question4" value="vanilla">
+                Vanilla
               </label>
             </div> <!--question 4, option 2-->
         </div> <!-- question 4 form group-->
@@ -86,21 +86,35 @@
           <label>Which mobile operating system do you prefer?</label>
             <div class="radio">
               <label>
-                iOS
                 <input type="radio" name="question5" value="ios" checked>
+                iOS
               </label>
             </div> <!--question 5, option 1-->
             <div class="radio">
               <label>
-                Android
                 <input type="radio" name="question5" value="android">
+                Android
               </label>
             </div> <!--question 5, option 2-->
         </div> <!-- question 5 form group-->
 
-
         <button type="submit" class="btn">See your result!</button>
       </form>
+
+<!--Below here is hidden until form is submitted-->
+
+      <div id="ruby">
+        <p>Congrats <span class="name"></span>, you should choose the Ruby/Rails track!</p>
+      </div> <!---ruby result div-->
+
+      <div id="csharp">
+        <p>Congrats <span class="name"></span>, you should choose the C#/.NET track!</p>
+      </div> <!---c# result div-->
+
+      <div id="design div">
+        <p>Congrats <span class="name"></span>, you should choose the Design track!</p>
+      </div> <!---c# result div-->
+
     </div><!--container-->
   </body>
 </html>
