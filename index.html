@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Epicodus Track</title>
@@ -26,7 +27,7 @@
             </div><!--name form-->
 
             <div class="form-group">
-              <label>If you could only choose one, you choose to make a website that...</label>
+              <label>If you could only choose one, you would choose to make a website that...</label>
                 <div class="radio">
                   <label>
                     <input type="radio" name="question1" value="works" checked>
@@ -46,19 +47,19 @@
                 <div class="radio">
                   <label>
                     <input type="radio" name="question2" value="newrelic" checked>
-                    NewRelic and InComm
+                    New Relic
                   </label>
                 </div> <!--question 2, option 1-->
                 <div class="radio">
                   <label>
                     <input type="radio" name="question2" value="sq1">
-                    SQ1 and InVision
+                    SQ1
                   </label>
                 </div> <!--question 2, option 2-->
             </div> <!-- question 2 form group-->
 
             <div class="form-group">
-              <label>Would you prefer to work for a...</label>
+              <label>You would prefer to work for a...</label>
                 <div class="radio">
                   <label>
                     <input type="radio" name="question3" value="startup" checked>
@@ -111,7 +112,7 @@
                 </div> <!--question 5, option 3-->
             </div> <!-- question 5 form group-->
 
-            <button type="submit" class="btn">See your result!</button>
+            <button type="submit" class="btn btn-success">See your result!</button>
           </form>
         </div> <!-- survey -->
 
@@ -128,25 +129,37 @@
               <img src="img/css.png" alt="Picture of CSS Logo">
             </div>
           </div>
-        </div> <!--epicodus div-->
+        </div> <!--pictures div-->
       </div><!-- row -->
 <!--Below here is hidden until form is submitted-->
       <div id="ruby">
-        <p><span class="name"></span>, you should choose the Ruby/Rails track!</p>
-        <img src="img/rails.png" alt="A picture of the Rails logo">
-        <p><a href="javascript:location.reload(true)">Click to retake the survey!</a><p>
+        <div class="panel panel-default">
+          <div class="panel-heading"><span class="name"></span>, you should choose the Ruby/Rails track!</div>
+            <div class="panel-body">
+              <img src="img/rails.png" alt="A picture of the Rails logo">
+              <p><a href="javascript:location.reload(true)">Click here to retake the survey!</a></p>
+            </div>
+        </div>
       </div> <!---ruby result div-->
 
       <div id="csharp">
-        <p><span class="name"></span>, you should choose the C#/.NET track!</p>
-        <img src="img/dotnet.png" alt="A picture of the .NET logo">
-        <p><a href="javascript:location.reload(true)">Click to retake the survey!</a><p>
+        <div class="panel panel-default">
+          <div class="panel-heading"><span class="name"></span>, you should choose the C#/.NET track!</div>
+            <div class="panel-body">
+              <img src="img/dotnet.png" alt="A picture of the .NET logo">
+              <p><a href="javascript:location.reload(true)">Click here to retake the survey!</a></p>
+            </div>
+        </div>
       </div> <!---c# result div-->
 
       <div id="design">
-        <p><span class="name"></span>, you should choose the Design track!</p>
-        <img src="img/design.png" alt="A picture of a pencil and ruler.">
-        <p><a href="javascript:location.reload(true)">Click here to retake the survey!</a><p>
+        <div class="panel panel-default">
+          <div class="panel-heading"><span class="name"></span>, you should choose the Design track!</div>
+            <div class="panel-body">
+              <img src="img/design.png" alt="A picture of a pencil and ruler">
+              <p><a href="javascript:location.reload(true)">Click here to retake the survey!</a></p>
+            </div>
+        </div>
       </div> <!---c# result div-->
 
     </div><!--container-->

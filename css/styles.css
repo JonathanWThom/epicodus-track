@@ -2,8 +2,13 @@ body {
   background-color: #ccccff;
 }
 
+a {
+  color: blue;
+}
+
 #header {
   margin-top: 10px;
+  font-family: 'Crete Round', serif;
 }
 
 #ruby, #csharp, #design {
@@ -18,6 +23,11 @@ body {
 #ruby p, #csharp p, #design p {
   margin-bottom: 15px;
   font-size: 20px;
+}
+
+.panel-heading {
+  font-family: 'Crete Round', serif;
+  font-size: 24px;
 }
 
 #epicodus {
