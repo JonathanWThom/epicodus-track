@@ -35,15 +35,15 @@ $(document).ready(function() {
     }
     else if (trackOutcome === "Ruby") {
       $("#ruby").show();
-      $("#introduction, #survey").hide();
+      $("#introduction, .row").hide();
     }
     else if (trackOutcome === "C#/.NET") {
       $("#csharp").show();
-      $("#introduction, #survey").hide();
+      $("#introduction, .row").hide();
     }
     else if (trackOutcome === "Design") {
       $("#design").show();
-      $("#introduction, #survey").hide();
+      $("#introduction, .row").hide();
     }
   });
 });

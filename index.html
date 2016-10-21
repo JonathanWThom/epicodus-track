@@ -14,98 +14,102 @@
         <p>The Epicodus cohort beginning in October 2016 have three tracks to choose from: Ruby using the Rails framework, C# using the .NET framework, and Design. Complete the survey below to see which one is right for you!</p>
       </div> <!-- Introduction -->
 
-      <div id="survey">
-        <form class="well">
-          <div class="form-group" id="namediv">
-            <label for="name">Enter your name:</label>
-            <input id="name" class="form-control" type="text">
-          </div><!--name form-->
+      <div class="row">
+        <div class="col-md-6" id="survey"> <!--Survey necessary??? -->
+          <form class="well">
+            <div class="form-group" id="namediv">
+              <label for="name">Enter your name:</label>
+              <input id="name" class="form-control" type="text">
+            </div><!--name form-->
 
-          <div class="form-group">
-            <label>If you could only choose one, would you make a website that...</label>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="question1" value="works" checked>
-                  Works great.
-                </label>
-              </div> <!--question 1, option 1-->
-              <div class="radio">
-                <label>
-                  <input type="radio" name="question1" value="looks">
-                  Looks great.
-                </label>
-              </div> <!--question 1, option 2-->
-          </div> <!-- question 1 form group-->
+            <div class="form-group">
+              <label>If you could only choose one, would you make a website that...</label>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question1" value="works" checked>
+                    Works great.
+                  </label>
+                </div> <!--question 1, option 1-->
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question1" value="looks">
+                    Looks great.
+                  </label>
+                </div> <!--question 1, option 2-->
+            </div> <!-- question 1 form group-->
 
-          <div class="form-group">
-            <label>Which of these companies would you prefer to work for?</label>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="question2" value="newrelic" checked>
-                  NewRelic and InComm
-                </label>
-              </div> <!--question 2, option 1-->
-              <div class="radio">
-                <label>
-                  <input type="radio" name="question2" value="sq1">
-                  SQ1 and InVision
-                </label>
-              </div> <!--question 2, option 2-->
-          </div> <!-- question 2 form group-->
+            <div class="form-group">
+              <label>Which of these companies would you prefer to work for?</label>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question2" value="newrelic" checked>
+                    NewRelic and InComm
+                  </label>
+                </div> <!--question 2, option 1-->
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question2" value="sq1">
+                    SQ1 and InVision
+                  </label>
+                </div> <!--question 2, option 2-->
+            </div> <!-- question 2 form group-->
 
-          <div class="form-group">
-            <label>Would you prefer to work for a...</label>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="question3" value="startup" checked>
-                  New company and/or start up
-                </label>
-              </div> <!--question 3, option 1-->
-              <div class="radio">
-                <label>
-                  <input type="radio" name="question3" value="corporate">
-                  Established company with a corporate environment
-                </label>
-              </div> <!--question 3, option 2-->
-          </div> <!-- question 3 form group-->
+            <div class="form-group">
+              <label>Would you prefer to work for a...</label>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question3" value="startup" checked>
+                    New company and/or start up
+                  </label>
+                </div> <!--question 3, option 1-->
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question3" value="corporate">
+                    Established company with a corporate environment
+                  </label>
+                </div> <!--question 3, option 2-->
+            </div> <!-- question 3 form group-->
 
-          <div class="form-group">
-            <label>Which ice cream flavor do you prefer?</label>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="question4" value="chocolate" checked>
-                  Chocolate
-                </label>
-              </div> <!--question 4, option 1-->
-              <div class="radio">
-                <label>
-                  <input type="radio" name="question4" value="vanilla">
-                  Vanilla
-                </label>
-              </div> <!--question 4, option 2-->
-          </div> <!-- question 4 form group-->
+            <div class="form-group">
+              <label>Which ice cream flavor do you prefer?</label>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question4" value="chocolate" checked>
+                    Chocolate
+                  </label>
+                </div> <!--question 4, option 1-->
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question4" value="vanilla">
+                    Vanilla
+                  </label>
+                </div> <!--question 4, option 2-->
+            </div> <!-- question 4 form group-->
 
-          <div class="form-group">
-            <label>Which mobile operating system do you prefer?</label>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="question5" value="ios" checked>
-                  iOS
-                </label>
-              </div> <!--question 5, option 1-->
-              <div class="radio">
-                <label>
-                  <input type="radio" name="question5" value="android">
-                  Android
-                </label>
-              </div> <!--question 5, option 2-->
-          </div> <!-- question 5 form group-->
+            <div class="form-group">
+              <label>Which mobile operating system do you prefer?</label>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question5" value="ios" checked>
+                    iOS
+                  </label>
+                </div> <!--question 5, option 1-->
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question5" value="android">
+                    Android
+                  </label>
+                </div> <!--question 5, option 2-->
+            </div> <!-- question 5 form group-->
 
-          <button type="submit" class="btn">See your result!</button>
-        </form>
-      </div> <!-- survey -->
+            <button type="submit" class="btn">See your result!</button>
+          </form>
+        </div> <!-- survey -->
 
-
+        <div class="col-md-6" id="epicodus">
+          <img src="img/epicodus.png" alt="epicodus logo">
+        </div> <!--epicodus div-->
+      </div><!-- row -->
 <!--Below here is hidden until form is submitted-->
       <div id="ruby">
         <p><span class="name"></span>, you should choose the Ruby/Rails track!</p>
