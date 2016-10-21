@@ -6,7 +6,7 @@
 
 ## Description
 
-_Users enter their name, select answers for each survey question, and based on their answers are then returned a result of either: Ruby/Rails, C#/.NET, or Design._
+_Users enter their name, select answers for each survey question, and are then returned a result of either: Ruby/Rails, C#/.NET, or Design._
 
 ## Support and contact details
 

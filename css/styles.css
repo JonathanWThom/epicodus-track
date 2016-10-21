@@ -1,5 +1,9 @@
 body {
-  background-color: #e6f3ff;
+  background-color: #ccccff;
+}
+
+#header {
+  margin-top: 10px;
 }
 
 #ruby, #csharp, #design {
@@ -36,12 +40,4 @@ h2 {
 
 #logos {
   margin-top: 50px;
-}
-
-.jumbotron p {
-  font-size: 18px;
-}
-
-.jumbotron {
-  padding-bottom: 25px;
 }
