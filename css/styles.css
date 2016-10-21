@@ -2,6 +2,23 @@
   display: none;
 }
 
-/*#survey {
-  width: 50%;
-}*/
+#epicodus {
+  text-align: center;
+}
+
+#introduction {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.col-xs-4 img {
+  width: 100%;
+  height: 200px;
+}
+
+#logos {
+  margin-top: 50px;
+}
