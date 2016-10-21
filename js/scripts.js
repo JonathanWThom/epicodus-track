@@ -25,9 +25,16 @@ $(document).ready(function() {
     var answer2 = $("input:radio[name=question2]:checked").val();
     var answer3 = $("input:radio[name=question3]:checked").val();
 
+    var nameInput = $("input#name").val();
+    $(".name").text(nameInput);
+
     var trackOutcome = whatTrack(answer1, answer2, answer3);
 
-    if (trackOutcome === "Ruby") {
+    if (nameInput === "") {
+      console.log("name input is 0")
+      $(".form#name").addClass("has-error");
+    }
+    else if (trackOutcome === "Ruby") {
       $("#ruby").show();
       $("#homepage").hide();
     }
@@ -39,13 +46,5 @@ $(document).ready(function() {
       $("#design").show();
       $("#homepage").hide();
     }
-
-    var nameInput = $("input#name").val();
-    $(".name").text(nameInput);
   });
-
-  // $("#reload").click(function(event)) {
-  //   event.preventDefault();
-  //   window.location.reload();
-//  });
 });
