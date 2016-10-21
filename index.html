@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Epicodus Track</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Which Epicodus Track Should You Choose?</h1>
+      <p>The Epicodus cohort beginning in October 2016 have three tracks to choose from: Ruby on Rails, C# using the .NET framework, and Design. Complete the survey below to see which one is right for you!</p>
+
+      <form>
+        <div class="form-group">
+          <label for="name">Enter your name:</label>
+          <input id="name" class="form-control" type="text">
+        </div><!--name form-->
+
+        <div class="form-group">
+          <label>If you could only choose one, would you make a website that...</label>
+            <div class="radio">
+              <label>
+                Works great.
+                <input type="radio" name="toy" value="works great" checked>
+              </label>
+            </div> <!--question 1, option 1-->
+            <div class="radio">
+              <label>
+                Looks great.
+                <input type="radio" name="toy" value="looks great">
+              </label>
+            </div> <!--question 1, option 2-->
+        </div> <!-- question 1 form group-->
+
+
+
+
+        <button type="submit" class="btn">See your result!</button>
+      </form>
+    </div><!--container-->
+  </body>
+</html>
