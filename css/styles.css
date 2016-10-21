@@ -30,6 +30,18 @@ a {
   font-size: 24px;
 }
 
+#ruby .panel-heading {
+  color: red;
+}
+
+#csharp .panel-heading {
+  color: #80b3ff;
+}
+
+#design .panel-heading {
+  color: blue;
+}
+
 #epicodus {
   text-align: center;
   width: 100%;

@@ -36,19 +36,15 @@ $(document).ready(function() {
 
     if (nameInput === "") {
       $("#namediv").addClass("has-error");
-    }
-    else if (trackOutcome === "windows") {
+    } else if (trackOutcome === "windows") {
       alert("There must be some kind of mistake, no one likes the Windows Phone OS. Please change your answer and resubmit.");
-    }
-    else if (trackOutcome === "Ruby") {
+    } else if (trackOutcome === "Ruby") {
       $("#ruby").fadeIn();
       $("#introduction, .row").fadeOut();
-    }
-    else if (trackOutcome === "C#/.NET") {
+    } else if (trackOutcome === "C#/.NET") {
       $("#csharp").fadeIn();
       $("#introduction, .row").fadeOut();
-    }
-    else if (trackOutcome === "Design") {
+    } else if (trackOutcome === "Design") {
       $("#design").fadeIn();
       $("#introduction, .row").fadeOut();
     }
