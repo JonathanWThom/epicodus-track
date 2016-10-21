@@ -1,5 +1,15 @@
 #ruby, #csharp, #design {
   display: none;
+  text-align: center;
+}
+
+#ruby img, #csharp img, #design img {
+  padding-bottom: 15px;
+}
+
+#ruby p, #csharp p, #design p {
+  margin-bottom: 15px;
+  font-size: 20px;
 }
 
 #epicodus {
@@ -10,7 +20,7 @@
   text-align: center;
 }
 
-h1 {
+h2 {
   text-align: center;
 }
 
@@ -21,4 +31,12 @@ h1 {
 
 #logos {
   margin-top: 50px;
+}
+
+.jumbotron p {
+  font-size: 18px;
+}
+
+.jumbotron {
+  padding-bottom: 25px;
 }
