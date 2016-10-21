@@ -1,3 +1,7 @@
+body {
+  background-color: blue;
+}
+
 #ruby, #csharp, #design {
   display: none;
   text-align: center;
@@ -14,6 +18,7 @@
 
 #epicodus {
   text-align: center;
+  width: 100%;
 }
 
 #introduction {
