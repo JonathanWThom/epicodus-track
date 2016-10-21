@@ -31,20 +31,19 @@ $(document).ready(function() {
     var trackOutcome = whatTrack(answer1, answer2, answer3);
 
     if (nameInput === "") {
-      console.log("name input is 0")
-      $(".form#name").addClass("has-error");
+      $("#namediv").addClass("has-error");
     }
     else if (trackOutcome === "Ruby") {
       $("#ruby").show();
-      $("#homepage").hide();
+      $("#introduction, #survey").hide();
     }
     else if (trackOutcome === "C#/.NET") {
       $("#csharp").show();
-      $("#homepage").hide();
+      $("#introduction, #survey").hide();
     }
     else if (trackOutcome === "Design") {
       $("#design").show();
-      $("#homepage").hide();
+      $("#introduction, #survey").hide();
     }
   });
 });
