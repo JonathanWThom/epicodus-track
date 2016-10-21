@@ -29,16 +29,23 @@ $(document).ready(function() {
 
     if (trackOutcome === "Ruby") {
       $("#ruby").show();
+      $("#homepage").hide();
     }
     else if (trackOutcome === "C#/.NET") {
       $("#csharp").show();
+      $("#homepage").hide();
     }
     else if (trackOutcome === "Design") {
       $("#design").show();
+      $("#homepage").hide();
     }
 
     var nameInput = $("input#name").val();
     $(".name").text(nameInput);
-
   });
+
+  // $("#reload").click(function(event)) {
+  //   event.preventDefault();
+  //   window.location.reload();
+//  });
 });
